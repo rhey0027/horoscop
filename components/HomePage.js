@@ -28,8 +28,8 @@ const HomePage = ({date, time }) => {
 
       return (
             <div className='digiclock text-white font-light text-lg animate-pulse'>
-                  <h3><span className='font-bold text-orange-400'>{clientDate}</span></h3>
-                  <h3><span className='font-bold text-orange-400'>{clientTime}</span></h3>
+                  <h3>Ang araw ngayon: <span className='font-bold text-orange-400'>{clientDate}</span></h3>
+                  <h3>Ang oras ngaun: <span className='font-bold text-orange-400'>{clientTime}</span></h3>
             </div>
       );
 }

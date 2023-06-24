@@ -76,7 +76,7 @@ export default function Home() {
   <main className="container-md flex flex-col items-center justify-between">
       <div id="selectAstroSign"className={`z-20 absolute top-[230px] w-[400px] backdrop-blur-md bg-violet-400 rounded-lg p-6 ${selectMenuClass}`}>
         <select onChange={(e) => showAstro(e.target.value)}className="w-full text-center rounded-md p-2 text-lg text-black">
-          <option className="bg-violet-200" value="" id="0">buenos dias..señor, señora</option>
+          <option className="bg-violet-200" value="" id="0">buenos dias.....señor, señora</option>
           {astroSigns?.map( (item, index) => {
             return (
               // eslint-disable-next-line react/jsx-key
