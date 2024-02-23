@@ -1,0 +1,63 @@
+
+
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;900&family=Orbitron:wght@400;600;800&display=swap');
+
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+      box-sizing: border-box;
+      margin: 0 auto; padding: 0;
+}
+
+body {
+      min-height: 100vh;
+      background: url('/background.jpg') no-repeat fixed;
+      background-size: cover;
+      background-position: bottom;
+}
+.link_google:hover {
+      background: green;
+     
+}
+
+.link_fb:hover {
+      background: rgb(8, 113, 233);
+     
+}
+.link_gmail:hover {
+      background: rgb(218, 95, 14);
+     
+}
+.link_youtube:hover {
+      background: rgb(209, 14, 14);
+     
+}
+.links {
+      transition: all 0.2s ease;
+}
+
+.footer_bot {
+      position: absolute;
+      left: 0;
+      right: 0;
+      margin-left: auto;
+      margin-right: auto;
+      width: 100vw;
+      bottom: 8px;
+      text-align: center;
+}
+
+.digiclock {
+      position: absolute;
+      display: inline-block;
+      left: 0;
+      right: 0;
+      width: 370px;
+      margin-left: auto;
+      margin-right: auto;
+      bottom: 120px;
+      text-align: center;
+}
